@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calvin vanderveer | developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-dots"></div>
+    <div class="background-glow"></div>
+    
+    <div class="container">
+        <span class="star star-1">✧</span>
+        <span class="star star-2">✦</span>
+        <span class="star star-3">✧</span>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h1>calvin<br>vanderveer</h1>
+                <p class="tagline">coding is my passion. and sometimes, my job.</p>
+                
+                <div class="code-icon">
+                    <svg width="30" height="20" viewBox="0 0 30 20">
+                        <text x="0" y="15" fill="#2DD4BF" font-family="monospace" font-size="15">&lt;/&gt;</text>
+                    </svg>
+                </div>
+                
+                <nav class="nav">
+                    <a href="#about">about</a>
+                    <a href="#projects">projects</a>
+                    <a href="#blog">blog</a>
+                    <a href="#contact">contact</a>
+                </nav>
+            </div>
+            
+            <div class="hero-image">
+                <!-- Character illustration - using SVG for better quality -->
+                <svg width="300" height="400" viewBox="0 0 300 400">
+                    <path d="M150,100 Q200,50 250,120 Q270,150 250,200 Q220,250 150,240 Q80,250 50,200 Q30,150 50,120 Q100,50 150,100" stroke="#2DD4BF" stroke-width="2" fill="none"/>
+                    <!-- Simplified tech person outline -->
+                    <path d="M150,120 L150,220 M120,150 L180,150 M110,180 L190,180" stroke="#2DD4BF" stroke-width="2" fill="none"/>
+                    <!-- Glasses -->
+                    <rect x="115" y="140" width="70" height="15" rx="2" stroke="#2DD4BF" stroke-width="2" fill="none"/>
+                    <!-- Circuit lines -->
+                    <path d="M130,220 L130,240 L150,260 M170,220 L170,240 L150,260 M150,260 L150,280" stroke="#2DD4BF" stroke-width="1" fill="none"/>
+                    <path d="M100,200 L80,220 M200,200 L220,220" stroke="#2DD4BF" stroke-width="1" fill="none"/>
+                </svg>
+            </div>
+        </section>
+        
+        <section class="waitlist-section" id="waitlist">
+            <h2>Join the waitlist</h2>
+            <form class="waitlist-form" id="waitlistForm">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Your email address" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="Your name">
+                </div>
+                <button type="submit" class="btn">Get early access</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
