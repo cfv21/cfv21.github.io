@@ -2,9 +2,9 @@
 
 :root {
     --bg-color: #0a0a0e;
-    --accent-color: #d44242; /* Changed from #2DD4BF to dark reddish */
+    --accent-color: #2c3e7e; /* Changed to dark blue */
     --text-color: #e6e6cc;
-    --secondary-text: #d44242; /* Changed to match accent color */
+    --secondary-text: #2c3e7e; /* Changed to match accent color */
     --dot-size: 1px;
 }
 
@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-transform: lowercase; /* Force all text to lowercase */
 }
 
 body {
@@ -42,7 +43,7 @@ body {
     right: -150px;
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(212,66,66,0.1) 0%, rgba(10,10,14,0) 70%); /* Updated for red glow */
+    background: radial-gradient(circle, rgba(44,62,126,0.1) 0%, rgba(10,10,14,0) 70%); /* Updated for blue glow */
     z-index: -1;
 }
 
@@ -167,7 +168,7 @@ h1 {
 .form-control {
     width: 100%;
     padding: 0.75rem 1rem;
-    background-color: rgba(212,66,66,0.05); /* Updated for red tint */
+    background-color: rgba(44,62,126,0.05); /* Updated for blue tint */
     border: 1px solid var(--accent-color);
     border-radius: 4px;
     color: var(--text-color);
@@ -176,7 +177,7 @@ h1 {
 
 .form-control:focus {
     outline: none;
-    box-shadow: 0 0 0 2px rgba(212,66,66,0.3); /* Updated for red glow */
+    box-shadow: 0 0 0 2px rgba(44,62,126,0.3); /* Updated for blue glow */
 }
 
 .form-textarea {
@@ -194,10 +195,11 @@ h1 {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-transform: lowercase;
 }
 
 .btn:hover {
-    background-color: #b03636; /* Darker red on hover */
+    background-color: #1e2a58; /* Darker blue on hover */
     transform: translateY(-2px);
 }
 
