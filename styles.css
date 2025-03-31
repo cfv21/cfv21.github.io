@@ -256,3 +256,21 @@ h1 {
         margin: 2rem auto;
     }
 }
+
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    color: #ddd;
+    text-align: left;
+}
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f2f2f2;
+}
+.about-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
